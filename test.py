@@ -2,7 +2,9 @@ import pixelate
 from matplotlib import pyplot as plt
 from matplotlib import image
 
-for pixels in range(500,0,-100):
+labels = ['Mountain', 'Flower']
+labels[0]
+for pixels in range(501,0,-100):
     pixelate.pixelate('_R000222.jpg', 'pixel.jpg', pixels)
 
     img = image.imread("pixel.jpg")
