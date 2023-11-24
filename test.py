@@ -5,7 +5,6 @@ from matplotlib import image
 import random 
 
 # Naming conventions
-labels = ['Mountain', 'Flower', 'Ramen', 'Cake', 'Dog']
 img_folder = 'Images/'
 img_names = ['mountain.jpg', 'flower.jpg', 'ramen.jpg', 'cake.jpg', 'dog.jpg']
 
